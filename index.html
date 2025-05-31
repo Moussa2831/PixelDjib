@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelDjib Technologie - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="animation.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PixelDjib <span>Technologie</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>PixelDjib <span>Technologie</span></h1>
+            <p>Votre partenaire technologique pour des solutions innovantes</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">Nos Services</a>
+                <a href="#contact" class="btn-secondary">Nous Contacter</a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-icons">
+                <i class="fas fa-code"></i>
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-network-wired"></i>
+                <i class="fas fa-shield-alt"></i>
+                <i class="fas fa-headset"></i>
+            </div>
+        </div>
+                    <!-- Ajouter cette section dans le hero, juste après le contenu principal -->
+<div class="floating-icons">
+    <i class="fas fa-code"></i>
+    <i class="fas fa-laptop-code"></i>
+    <i class="fas fa-mobile-alt"></i>
+    <i class="fas fa-palette"></i>
+    <i class="fas fa-rocket"></i>
+</div>
+
+<!-- Ajouter aussi cette section pour l'effet Matrix (optionnel) -->
+<div class="matrix-rain" id="matrixRain"></div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Conception et Développement Web</h3>
+                    <p>Création de sites web modernes, responsives et optimisés pour tous les appareils.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Développement d'Applications Mobiles</h3>
+                    <p>Applications iOS et Android natives et hybrides pour votre business.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Développement de Logiciels Sur Mesure</h3>
+                    <p>Solutions logicielles personnalisées adaptées à vos besoins spécifiques.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Infrastructure Réseau</h3>
+                    <p>Conception, installation et maintenance de votre infrastructure réseau.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Installation et Maintenance de Sécurité</h3>
+                    <p>Protection complète de vos systèmes et données contre les menaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Conseil et Support Informatique</h3>
+                    <p>Accompagnement et support technique pour optimiser votre IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nos Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/eco.jpeg" alt="Projet E-Commerce">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plateforme E-Commerce</h3>
+                        <p>Site de vente en ligne avec système de paiement intégré</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/appp.jpeg" alt="Application Mobile">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Application de Gestion</h3>
+                        <p>App mobile pour la gestion des tâches et projets</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/app.webp" alt="Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytique</h3>
+                        <p>Interface d'administration avec analytics en temps réel</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/port.jpeg" alt="Site Portfolio">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://storied-sawine-a31a2c.netlify.app/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Site Portfolio</h3>
+                        <p>Portfolio moderne et responsive pour artiste</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/clinic.jpeg" alt="Système CRM">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gestion de Clinique</h3>
+                        <p>Application web complète pour la gestion des patients, consultations et rendez-vous. Interface intuitive pour médecins et personnel administratif.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>JavaScript</span>
+                            <span>mySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/rdv.jpeg" alt="API REST">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gestion des Rendez-vous</h3>
+                        <p>Outil permettant la prise et la gestion de rendez-vous en ligne. Calendrier interactif et notifications automatiques.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À Propos de PixelDjib Technologie</h2>
+                    <p>Nous sommes une entreprise spécialisée dans les solutions technologiques innovantes. Notre équipe d'experts passionnés travaille avec dévouement pour transformer vos idées en réalité digitale.</p>
+                    <p>Avec plusieurs années d'expérience dans le domaine, nous offrons des services de qualité supérieure adaptés aux besoins spécifiques de chaque client.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projets Réalisés</p>
+                        </div>
+                        <div class="stat">
+                            <h3>30+</h3>
+                            <p>Clients Satisfaits</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Années d'Expérience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.png" alt="Notre équipe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-Nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Djibouti, Djibouti</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+253 77 29 89 53</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>pixeldjib@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <input type="text" placeholder="Sujet" required>
+                    <textarea placeholder="Votre message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PixelDjib Technologie</h3>
+                    <p>Votre partenaire technologique pour des solutions innovantes et sur mesure.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Développement Web</a>
+                        <li><a href="#services">Applications Mobiles</a></li>
+                        <li><a href="#services">Logiciels Sur Mesure</a></li>
+                        <li><a href="#services">Infrastructure Réseau</a></li>
+                        <li><a href="#services">Sécurité Informatique</a></li>
+                        <li><a href="#services">Support Technique</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-map-marker-alt"></i> Djibouti, Djibouti</p>
+                        <p><i class="fas fa-phone"></i> +253 XX XX XX XX</p>
+                        <p><i class="fas fa-envelope"></i> pixeldjib@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PixelDjib Technologie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
